@@ -1,0 +1,565 @@
+{
+  "id": "51a59d0f-8422-47dd-b6ca-df1717dbb6fa",
+  "version": "2.0",
+  "name": "Home work 25.",
+  "url": "https://www.xn--80aaf4aqgqm9a.xn--j1amh/",
+  "tests": [{
+    "id": "9a33c09b-9454-42fd-bc94-5c7e1185b731",
+    "name": "Add product to a cart.",
+    "commands": [{
+      "id": "41b831dd-3e3c-431e-8b88-0ff3a91d74c2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.xn--80aaf4aqgqm9a.xn--j1amh/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa32a44a-d389-4f5f-afb3-8ec87c30a668",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4540bb8-3249-4957-8bd7-bfbf2769047a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='search']/input",
+      "targets": [
+        ["id=input-search", "id"],
+        ["name=search", "name"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "004373f5-16ce-4fa5-a9e0-b68a10c829fa",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='input-search']",
+      "targets": [
+        ["id=input-search", "id"],
+        ["name=search", "name"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "олівець"
+    }, {
+      "id": "35619574-4ec7-40de-8299-fc93596cb2fc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Олівець чорнографітний 6В KIN 1500 12шт/уп')]",
+      "targets": [
+        ["linkText=Олівець чорнографітний 6В KIN 1500 12шт/уп", "linkText"],
+        ["css=.search-item:nth-child(5) > .name", "css:finder"],
+        ["xpath=//a[contains(text(),'Олівець чорнографітний 6В KIN 1500 12шт/уп')]", "xpath:link"],
+        ["xpath=//div[@id='search_content']/div[5]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.xn--80aaf4aqgqm9a.xn--j1amh/kanctovari-dlya-ofisu/karandash-grafitnyj-1500-6v-kin')])[2]", "xpath:href"],
+        ["xpath=//div[5]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Олівець чорнографітний 6В KIN 1500 12шт/уп')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c1e2925-0938-4d89-b4d4-970697513516",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div[4]/div[3]/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61015d55-09e0-44f6-8f23-85eee58510e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div[4]/div[3]/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6cb55a7-d03a-4f8d-a491-14c2783741d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div[4]/div[3]/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "562b6048-c0cd-45b2-a85b-414de31cfef8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div[4]/div[3]/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b6fdb5e-c60f-4dca-abeb-dffdf47b53d8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Купити')]",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["linkText=Купити", "linkText"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//a[contains(text(),'Купити')]", "xpath:link"],
+        ["xpath=//a[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div[4]/div[3]/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81c0bcfc-b1f2-4c6a-8b69-288a85cb5695",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Оформити замовлення')]",
+      "targets": [
+        ["linkText=Оформити замовлення", "linkText"],
+        ["css=.popup-buttons > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформити замовлення')]", "xpath:link"],
+        ["xpath=//div[@id='popup-cart']/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.xn--80aaf4aqgqm9a.xn--j1amh/simplecheckout')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b1c61a19-2ae2-4c63-a87d-5f91dd87c874",
+    "name": "Add product to a comparing.",
+    "commands": [{
+      "id": "1c69ded9-cea6-4f2c-a9a7-5f4ca091b074",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.xn--80aaf4aqgqm9a.xn--j1amh/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f1184d7-53de-40b8-b47a-c997d2d214d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fdea91e-cdcc-406a-8e5d-faf81891266f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,365.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d55f103-1de6-4739-bbfd-f8640ff4af64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Пластилін 8 кольорів ГАММА 200310 Захоплення 128 грам 24шт/уп",
+      "targets": [
+        ["linkText=Пластилін 8 кольорів ГАММА 200310 Захоплення 128 грам 24шт/уп", "linkText"],
+        ["css=.viewport .product-item:nth-child(1) > .name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Пластилін 8 кольорів ГАММА 200310 Захоплення 128 грам 24шт/уп')]", "xpath:link"],
+        ["xpath=//div[@id='tab-latest1626110108']/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'kanctovari-dlya-shkoli/plastilin/plastilin-8-koloriv-gamma-200310-zahoplennya-128-gram')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Пластилін 8 кольорів ГАММА 200310 Захоплення 128 грам 24шт/уп')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2db0c1f-0e67-4be5-884d-9ed738cba281",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Порівняти",
+      "targets": [
+        ["linkText=Порівняти", "linkText"],
+        ["css=.links:nth-child(6) > .compare", "css:finder"],
+        ["xpath=//a[contains(text(),'Порівняти')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"addToCompare('11827');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div[4]/div[3]/div/div[6]/a[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Порівняти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff2e882c-4c1a-43a6-839e-addcb3c63a30",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Продовжити покупки",
+      "targets": [
+        ["linkText=Продовжити покупки", "linkText"],
+        ["css=.button-yellow", "css:finder"],
+        ["xpath=//a[contains(text(),'Продовжити покупки')]", "xpath:link"],
+        ["xpath=//div[@id='popup-compare-popup']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Продовжити покупки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd8724e0-343c-4d8a-b510-69a7d1e4953f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,369.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1c8a398-dae5-4b23-a099-016157c01259",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Пластилін 8 кольорів 1Вересня 540587 Zoo Land 160 грам",
+      "targets": [
+        ["linkText=Пластилін 8 кольорів 1Вересня 540587 Zoo Land 160 грам", "linkText"],
+        ["css=.container:nth-child(4) div:nth-child(2) > .name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Пластилін 8 кольорів 1Вересня 540587 Zoo Land 160 грам')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'kanctovari-dlya-shkoli/plastilin/plastilin-8-koloriv-1veresnya-540587-zoo-land-160-gram')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Пластилін 8 кольорів 1Вересня 540587 Zoo Land 160 грам')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a54b3f4f-3712-43d6-8f28-450b18e471a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Порівняти",
+      "targets": [
+        ["linkText=Порівняти", "linkText"],
+        ["css=.links:nth-child(6) > .compare", "css:finder"],
+        ["xpath=//a[contains(text(),'Порівняти')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"addToCompare('11825');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div[4]/div[3]/div/div[6]/a[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Порівняти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f70dac4-2629-45ab-9434-e7bf6d925aa3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Порівняти",
+      "targets": [
+        ["linkText=Порівняти", "linkText"],
+        ["css=.links:nth-child(6) > .compare", "css:finder"],
+        ["xpath=//a[contains(text(),'Порівняти')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"addToCompare('11825');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div[4]/div[3]/div/div[6]/a[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Порівняти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c951e28f-d6ef-467f-b824-5094cd94efc5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Порівняти",
+      "targets": [
+        ["linkText=Порівняти", "linkText"],
+        ["css=.links:nth-child(6) > .compare", "css:finder"],
+        ["xpath=//a[contains(text(),'Порівняти')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"addToCompare('11825');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div[4]/div[3]/div/div[6]/a[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Порівняти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a8b0f65-10f7-4cf3-a608-776930e03d97",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Перейти до порівняння",
+      "targets": [
+        ["linkText=Перейти до порівняння", "linkText"],
+        ["css=.button-green", "css:finder"],
+        ["xpath=//a[contains(text(),'Перейти до порівняння')]", "xpath:link"],
+        ["xpath=//div[@id='popup-compare-popup']/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.xn--80aaf4aqgqm9a.xn--j1amh/compare')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Перейти до порівняння')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "649ae370-5657-4d3e-9497-b5b4a1a51ea1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,364.79998779296875)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ab9a505a-7bf4-44f3-b7c2-c9c26f4a9df6",
+    "name": "Search wrong product.",
+    "commands": [{
+      "id": "9786617b-c7ee-4881-8336-99f5fbb8e713",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.xn--80aaf4aqgqm9a.xn--j1amh/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcb8cf40-ee2a-4556-8e0f-cea98ad02ef0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ae74839-1689-4018-8115-c35805f5df27",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='input-search']",
+      "targets": [
+        ["id=input-search", "id"],
+        ["name=search", "name"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd3e5780-a615-4199-a17b-fde06a65f4fd",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='input-search']",
+      "targets": [
+        ["id=input-search", "id"],
+        ["name=search", "name"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "вино"
+    }, {
+      "id": "d4bf7648-db50-442e-ad70-b45cbc614b6c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='search']/div",
+      "targets": [
+        ["css=.button-search", "css:finder"],
+        ["xpath=//div[@id='search']/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8f9a4f93-5258-4b73-902c-939d3f4cb134",
+    "name": "Сhecking the dropdown of the sorting.",
+    "commands": [{
+      "id": "4f51203c-c22a-40d6-a5b4-5a49d25af75b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.xn--80aaf4aqgqm9a.xn--j1amh/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a87dc36c-a5c6-4908-933b-c09a63b3e99a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3adbf812-185a-4a1b-8dc4-26672f2b0892",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item_plitka:nth-child(3) img",
+      "targets": [
+        ["css=.item_plitka:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='Канцтовари для офісу']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[3]/div/div[3]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42cf453f-6b9a-4e96-aa3f-957c19075a32",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,364.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5590a368-d542-4f96-bc26-a9e367b4bf44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selectboxit-hover > .selectboxit-arrow-container",
+      "targets": [
+        ["css=.selectboxit-hover > .selectboxit-arrow-container", "css:finder"],
+        ["xpath=(//span[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/span/span/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77e862e7-f8a0-481a-97f4-74f0373181d5",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.selectboxit-focus > .selectboxit-option-anchor",
+      "targets": [
+        ["css=.selectboxit-focus > .selectboxit-option-anchor", "css:finder"],
+        ["xpath=//a[contains(text(),'Ціною: Високі < Низькі')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div/span/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//span/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ціною: Високі < Низькі')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a08137b3-97f0-41ba-95c2-718dc7751374",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.product-item:nth-child(1) > .left",
+      "targets": [
+        ["css=.product-item:nth-child(1) > .left", "css:finder"],
+        ["xpath=//div[@id='content']/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2c6a5a7-6811-43e9-82b0-ab73fba43772",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "053ce578-2ba1-4da3-8b54-a7a93964062c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,353.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c97635c-dea5-477a-9def-3fa691b3c8eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selectboxit-hover > .selectboxit-arrow-container",
+      "targets": [
+        ["css=.selectboxit-hover > .selectboxit-arrow-container", "css:finder"],
+        ["xpath=(//span[@id=''])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div[2]/span/span/span[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/span/span/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b8babf9-a83e-4a4a-b649-11bdaa6721fa",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.selectboxit-focus > .selectboxit-option-anchor",
+      "targets": [
+        ["css=.selectboxit-focus > .selectboxit-option-anchor", "css:finder"],
+        ["xpath=//a[contains(text(),'50')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div[2]/span/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/span/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'50')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54a8d8f3-aace-48c8-9b21-2a7789287622",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.product-item:nth-child(1) > .middle",
+      "targets": [
+        ["css=.product-item:nth-child(1) > .middle", "css:finder"],
+        ["xpath=//div[@id='content']/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4ba03d2-06cb-463d-bdb6-20fda8b4b77f",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d734227b-8119-48a6-b024-80dacd993e48",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,364.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d729328b-109a-4310-a511-1f0a5f7a35d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selectboxit-hover > .selectboxit-text",
+      "targets": [
+        ["css=.selectboxit-hover > .selectboxit-text", "css:finder"],
+        ["xpath=(//span[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/span/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4a58036-e613-4352-b103-af702782c938",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.selectboxit-focus > .selectboxit-option-anchor",
+      "targets": [
+        ["css=.selectboxit-focus > .selectboxit-option-anchor", "css:finder"],
+        ["xpath=//a[contains(text(),'Ціною: Низькі > Високі')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[3]/div/span/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//span/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ціною: Низькі > Високі')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81ffa213-6a21-49ee-80f0-e0e0fcb06eb6",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.product-item:nth-child(1) img",
+      "targets": [
+        ["css=.product-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Калькулятор CITIZEN SDC-888XBL чорно-синій великий']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[4]/div/div/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51b179df-709e-4056-811a-42fc01ee77d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "75e692fc-8cf6-4a1e-a8fb-06f77b4b7a92",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a33c09b-9454-42fd-bc94-5c7e1185b731"]
+  }],
+  "urls": ["https://www.xn--80aaf4aqgqm9a.xn--j1amh/"],
+  "plugins": []
+}
